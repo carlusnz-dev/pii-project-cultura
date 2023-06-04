@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #9bcad4; /*Cor do site*/
+}
+
+nav {
+    background-color: #00404f; /*Cor da nav*/
+    display: flex;
+    justify-content: end;
+  }
+  
+#cont-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-msc img {
+  height: 100px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ima img{
+  width: 100vw;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.ima{
+  display: flex;
+  justify-content: center;
+}
+.card:hover{
+transform: scale3d(1.1, 1.1, 1);
+}
+.card{
+  transition: 0.3s;
+}
+
+.let-two{
+  background-color: #245b6a; /*Cor do texto principal*/
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 30px;
+  border: solid 3px black;
+  border-radius: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.let-two h2{
+  font-size: 25px;
+}
+
+.let-two h1{
+  color: #000028;
+}
+
+.card-msc{
+  background-color: #7bb0be ; /*Cor dos cards*/
+}
+.map{
+  display: flex;
+  justify-content: center;
+  border: solid 10px #245b6a;
+  padding: 15px;
+}
+#maps{
+  background-color: #245b6a;
+  color: #7bb0be;
+  text-align: center;
+  border: solid 5px #245b6a;
+  border-radius: 15px;
+}
+#cont-2{
+  margin-top: 100px;
+  position: relative;
+}
+
+.carousel-item img{
+  height: 600px;
+  width: 400px;
+}
+
+.carousel-item h3{
+  color: #245b6a;
+  display: flex;
+  justify-content: center;
+}
+.fin{
+  background-color: #245b6a;
+}
