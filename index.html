@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CulturaSRN</title>
-  <link rel="fiveicon" href="../img/logo.png">
+  <link rel="icon" type="image/png" href="../img/logosite.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -14,8 +14,8 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark ">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Home</a>
+    <div class="container px-5">
+      <a class="navbar-brand" href="index.html"><img src="../img/logosite.png" alt="Logo" height="50"></a>
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="lazer.html">Lazer</a>
@@ -32,28 +32,28 @@
       </ul>
     </div>
   </nav>
-  <div class="ima">
-    <img src="img/srn.jpg" alt="">
+  <div class="container-fluid" id="bg-banner"
+    style="background: url(../img/srn.jpg) fixed; height: 350px; background-position: -100px -100px;">
   </div>
   <br>
   </div>
-  <div class="let-two">
-    <h1>Mas afinal, o que é cultura?</h1>
-    <h2>A cultura é um termo muito amplo que engloba um conjunto de conhecimentos,<br> valores, crenças, costumes e
+  <div class="container text-center text-light rounded-3 shadow p-3 mb-5" id="title-container">
+    <h3 class="fw-bolder text-uppercase">Mas afinal, o que é cultura?</h3>
+    <p>A cultura é um termo muito amplo que engloba um conjunto de conhecimentos,<br> valores, crenças, costumes e
       tradições que são compartilhados por uma sociedade. Ela está presente em todas as áreas da vida, como na arte, na
-      religião, <br> na ciência, na tecnologia, na culinária, na música, no esporte, na moda, entre outras, e na cidade
+      religião, na ciência, na tecnologia, na culinária, na música, no esporte, na moda, entre outras, e na cidade
       de São Raimundo Nonato possui várias culturas, e vamos comentar sobre o lazer, a religiosidade, e as festividades.
-    </h2>
+    </p>
   </div>
-
-  <br><br>
-  <div class="container" id="cont-1">
+  <div class="container d-flex justify-content-around">
     <div class="card card-msc" style="width: 12rem;">
       <img src="img/aeroporto.jpg" class="card-img-body" alt="sertanejo">
       <div class="card-body">
         <h5 class="card-title">Lazer</h5>
         <p class="card-text">Saiba mais sobre as áreas de lazer de São Raimundo</p>
-        <a href="lazer.html" class="btn btn-dark">Ver mais</a>
+      </div>
+      <div class="card-footer">
+        <a href="../pag/lazer.html" class="btn btn-light">Ver mais</a>
       </div>
     </div>
 
@@ -62,7 +62,9 @@
       <div class="card-body">
         <h5 class="card-title">Religiosidade</h5>
         <p class="card-text">Saiba mais sobre a religiosidade da cidade</p>
-        <a href="relig.html" class="btn btn-dark">Ver mais</a>
+      </div>
+      <div class="card-footer">
+        <a href="../pag/relig.html" class="btn btn-light">Ver mais</a>
       </div>
     </div>
 
@@ -71,47 +73,47 @@
       <div class="card-body">
         <h5 class="card-title">Festividades</h5>
         <p class="card-text">Conheça mais sobre as festividades da cidade</p>
-        <a href="calendario.html" class="btn btn-dark">Ver mais</a>
+      </div>
+      <div class="card-footer">
+        <a href="../pag/calendario.html" class="btn btn-light">Ver mais</a>
       </div>
     </div>
   </div>
   <br>
-  <div class="map">
-    <div id="maps">
-      <h1> Cidade de São Raimundo Nonato</h1>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31524.34499417105!2d-42.71390173020357!3d-9.014117941199862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x77a04b0954d9571%3A0xc5a9e485432f62ea!2sS%C3%A3o%20Raimundo%20Nonato%2C%20PI%2C%2064770-000!5e0!3m2!1spt-BR!2sbr!4v1685359512873!5m2!1spt-BR!2sbr"
-        width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-  <div class="container" id="cont-2">
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+  <div class="container">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/onca.jpg" class="d-block w-100" alt="...">
-          <h3>Escultura das onças-pintadas</h3>
+          <img src="../img/onca.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-body-tertiary text-dark rounded-5">
+            <h5>Escultura das Onças</h5>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="img/Seriema.jpg" class="d-block w-100" alt="...">
-          <h3>Escultura da Seriema</h3>
+          <img src="../img/tatu.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-body-tertiary text-dark rounded-5">
+            <h5>Escultura do Tatu</h5>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="img/tatu.jpg" class="d-block w-100" alt="...">
-          <h3>Escultura do Tatu</h3>
+          <img src="../img/Seriema.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-body-tertiary text-dark rounded-5">
+            <h5>Escultura da Seriema</h5>
+          </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="prev">
+      <a class="carousel-control-prev" href="#carouselExample role=" button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="next">
+      </a>
+      <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
-      </button>
+      </a>
     </div>
   </div>
+
   <footer>
     <link rel="stylesheet" href="footer.css">
     <h1> Informações</h1>
@@ -141,7 +143,9 @@
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
