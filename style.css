@@ -19,10 +19,6 @@ nav {
   background-color: #8ca89a;
 }
 
-.ima {
-  display: flex;
-  justify-content: center;
-}
 
 .card:hover {
   transform: scale3d(1.1, 1.1, 1);

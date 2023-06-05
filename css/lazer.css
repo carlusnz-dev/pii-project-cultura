@@ -1,101 +1,10 @@
-nav {
-    background-color: #15d4ff; /*Cor da nav*/
-    display: flex;
-    justify-content: end;
-  }
-
-.wraper{
-max-width: 760px;
-margin: 10px auto;
-background-color: #F7CB15;
-padding: 40px;
-display: flex;
-justify-content: center;
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(230, 255, 247);
 }
 
-header{
-background-color: #ff3616;
-padding: 5px;
-}
-
-#p2{
-background-color: #F18805;
-padding: 5px;
-}
-
-#p3{
-background-color: rgb(61, 100, 87);
-padding: 5px;
-}
-
-.text h2{
-background-color: #FFF07C; /*Cor do texto principal*/
-color: rgb(0, 0, 0);
-text-align: center;
-font-size: 25px;
-margin: 30px;
-border: solid 3px black;
-border-radius: 10px;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-.text ul{
-background-color: #3b4ace; /*Cor do texto principal*/
-color: rgb(255, 255, 255);
-text-align: center;
-font-size: 25px;
-margin: 30px;
-border: solid 3px black;
-border-radius: 10px;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-.li{
-padding: 3px;
-}
-
-.container-flex {
-display: flex;
-justify-content: space-between;
-}
-
-.container-flex img{
-padding: 10px;
-height: 400px;
-max-width: 400px;
-}
-
-.container-flex h5{
-display: flex;
-justify-content: center;
-}
-
-.roda{
-background-color: #3b4ace;
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-}
-
-#cont-2{
-margin-top: 100px;
-position: relative;
-}
-
-.carousel-item img{
-height: 600px;
-width: 400px;
-}
-
-.carousel-item h3{
-color: white;
-display: flex;
-justify-content: center;
-}
-
-.card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+#bg-header {
+  background: url(../img/festa\ do\ branco.jpg) fixed;
+  height: 350px;
 }
