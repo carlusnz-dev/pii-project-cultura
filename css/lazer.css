@@ -5,6 +5,8 @@ body {
 }
 
 #bg-header {
-  background: url(../img/festa\ do\ branco.jpg) fixed;
+  background: url(../img/campo\ gavião.jpg) fixed;
   height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

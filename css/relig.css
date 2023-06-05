@@ -3,6 +3,8 @@ body{
 }
 
 #bg-header {
-    background: url(../img/festa\ do\ branco.jpg) fixed;
+    background: url(../img/atitude.jpeg) fixed;
     height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
